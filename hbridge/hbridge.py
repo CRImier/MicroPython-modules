@@ -3,7 +3,7 @@ from time import sleep
 class HBridge():
     def __init__(self, pin_a, pin_b):
         self.a = pin_a
-        self.b - pin_b
+        self.b = pin_b
         self.a.init(self.a.OUT)
         self.b.init(self.b.OUT)
         self.a.low()
